@@ -1,0 +1,11 @@
+{
+  "name": "travis-test-redis-socket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ls -la /var/run/redis"
+  },
+  "author": "",
+  "license": "ISC"
+}
