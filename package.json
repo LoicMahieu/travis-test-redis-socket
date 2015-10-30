@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "ls -la /var/run"
+    "test": "find /var -name redis.sock"
   },
   "author": "",
   "license": "ISC"
