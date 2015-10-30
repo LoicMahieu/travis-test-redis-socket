@@ -2,6 +2,7 @@ language: generic
 
 script:
   - ls -la /run/redis
+  - find /etc -name redis.conf
 
 services:
   - redis
