@@ -1,6 +1,6 @@
 language: generic
 
-scripts:
+script:
   - ls -la /run
 
 services:
