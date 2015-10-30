@@ -1,7 +1,7 @@
 language: generic
 
 script:
-  - ls -la /run
+  - ls -la /run/redis
 
 services:
   - redis
